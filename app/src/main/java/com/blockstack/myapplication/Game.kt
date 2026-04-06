@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.annotation.SuppressLint
 import androidx.compose.animation.animateColor
 import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
@@ -1896,6 +1897,7 @@ fun Game(
     }
 }
 
+@SuppressLint("UnrememberedMutableState")
 @Composable
 @Preview(showBackground = true)
 fun GamePreview() {
